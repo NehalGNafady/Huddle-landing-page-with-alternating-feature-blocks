@@ -1,0 +1,121 @@
+.head{background-image: url(../images/bg-hero-desktop.svg); background-repeat: no-repeat; background-size: cover; padding: 60px;}
+
+header{ margin-bottom: 50px;}
+
+.head .logo img {float: left}
+
+.head .text button{float: right; background-color: #fff; border-radius: 25px; padding: 5px 50px; font-size: 20px; font-weight: 700; border: 1px solid #ddd; box-shadow: 1px 3px 4px #ddd;}
+
+
+.leftSec {margin-top: 80px;}
+.headerContent h1{font-weight: 700; font-family: (https://fonts.google.com/specimen/Poppins)}
+
+.headerContent p{font-size: 18px; font-family: sans-serif; margin-top: 30px; color: hsl(208, 11%, 55%);}
+
+.headerContent button{background-color: hsl(322, 100%, 66%); border-radius: 20px; padding: 10px 32px; color: #f9f9f9; font-weight: 700; border: 0;}
+
+.rightSec img{width: 105%}
+
+.mainContaoner{background-color:#fff; margin-top: 45px;}
+
+.mainContaoner .txt{    width: 50%; float: left; margin: 50px; padding: 15px; }
+
+.mainContaoner .imgg{width: 40%; float: right}
+
+.mainContaoner .imgg img{width:70%; margin-top: 10px;}
+
+.mainContaoner .txt h2{ font-family: Open Sans; font-weight: 700}
+
+.mainContaoner .txt p{color: hsl(208, 11%, 55%); font-family: Open Sans; font-size: 18px}
+
+.mainContaoner .secondSec .txt{ float: right; width: 45%}
+
+.mainContaoner .secondSec .imgg{ float: left; width: 40%; margin-left: 50px;}
+
+.mainContaoner .firstSec, .secondSec {width: 93%; margin-bottom: 20px; margin-left: 45px; height: 260px; border-radius: 10px; box-shadow: 0px 0px 3px 2px rgb(247, 246, 246);}
+
+.notification{box-shadow: 0px 0px 3px 2px rgb(247, 246, 246); padding: 40px 115px; width: 50%; height: 180px; border-radius: 10px; margin-top: 100px; z-index: 1;  position: relative; background: #fff}
+
+.notification button{border-radius: 30px; padding: 15px 32px; color: #f9f9f9; margin-left: 50px; margin-top: 15px; font-weight: 700; width: 70%; box-shadow: 1px 4px 5px 3px rgb(234, 229, 229); border: 0; background-color: hsl(322, 100%, 66%);}
+
+.foote{background-color: hsl(192, 100%, 9%); color: #8ea8ac; padding-top: 1px; margin-top: -35px; z-index: -1; padding-bottom: 10px;}
+
+.foote .logo { margin-top: 100px; margin-bottom: 40px; margin-left: 25px; color: white; filter: brightness(0) invert(1);}
+
+.foote ul{list-style: none}
+
+.foote ul li{ padding-bottom: 10px;}
+
+.foote ul li p {margin-top: -24px; margin-left: 35px; text-align: left;}
+
+.foote .details{width: 40%}
+
+.foote .details img{margin-right: 10px}
+
+.foote p{text-align: right; margin-right: 30px;}
+
+.info .left {float: left}
+
+.info .right {float: right}
+
+.social li { display: inline-block;}
+
+.social li i{margin: 5px; border: 2px solid #b9b4b4; padding: 9px; border-radius: 50%; color: #cecdcd;}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 992px){
+    .head{width: 142%}
+    
+    .logo{float:left; margin-left:-35px; width:50%;}  
+    
+    .head .text button{padding:6px 20px; margin-right:-30px; margin-top:-40px;}
+    
+    .leftSec{ text-align:center;}
+    
+    .headerContent h1{font-size:40px}
+    
+    .headerContent p {font-size:24px}
+    
+    .headerContent button{width:70%; margin-top:25px; margin-bottom:60px; padding:20px; border-radius:35px; font-size:22px;}
+    
+    .mainContaoner .firstSec, .secondSec{ width: 100%;  height:500px; margin:0 83px; margin-bottom:50px;}
+    
+    .mainContaoner .txt {float:right; width: 100%; margin: 0px; text-align: center; margin-top: 256px;}
+    
+    .mainContaoner .imgg{width: 100%; margin-top:-485px;}
+    
+    .mainContaoner .imgg img{width: 85%; margin:-8px 20px}
+    
+    .mainContaoner .txt h2{font-size: 40px;}
+
+    .mainContaoner .txt p{font-size: 20px}
+    
+    .mainContaoner .secondSec .txt{float:right; width:100%; margin:0px; text-align:center; margin-top: 256px;}
+
+    .mainContaoner .secondSec .imgg{width: 100%; }
+    
+    .mainContaoner .secondSec .imgg img{width:85%; margin-left:-22px; margin-top: -15px;}
+    
+    .notification{width: 120%; margin-left: 50px; padding-left: 14px; padding-right: 14px; height: 202px; box-shadow: 2px 2px 10px 5px rgb(247, 246, 246)}
+    
+    .notification button{border-radius: 40px; padding: 20px 30px; margin-left: 30px; font-size: 20px; width: 85%;}
+    
+    .foote{margin-top: -45px; width: 142%;}
+    
+    .foote .details{width: 100%}
+    
+    .foote ul { list-style: none; margin-left: -300px; margin-top: 172px;}
+ 
+    .foote .info{ margin-top: -130px;}
+    
+    .info .right{float: left; margin-top: 275px;}
+    
+    .foote .social{margin-top: -130px; text-align: center;}
+    
+    .attribution { font-size: 11px; text-align: center; margin-left: 100px; }
+
+
+}
